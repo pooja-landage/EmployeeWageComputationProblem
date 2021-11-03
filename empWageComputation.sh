@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/bash -x
 
-isFullTime=1;
-isPartTime=2;
+isFullTime=2;
+isPartTime=1;
 employeeRate=20;
 randomCheck=$((RANDOM%3))
 case $randomCheck in
